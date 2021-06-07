@@ -25,7 +25,7 @@ const LandingSection = () => {
           <Button
             to="about"
             smooth={true}
-            duration={500}
+            duration={1500}
             spy={true}
             exact="true"
           >

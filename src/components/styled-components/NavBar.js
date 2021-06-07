@@ -5,7 +5,7 @@ export const Nav = styled.nav`
   background: #000;
   height: 80px;
   justify-content: center;
-  align-items: center;
+  align-items: right;
   font-size: 1.5rem;
   position: sticky;
   top: 0;
@@ -18,7 +18,7 @@ export const Nav = styled.nav`
 
 export const NavbarContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 80px;
   z-index: 1;
   width: 100%;
@@ -58,7 +58,7 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -22px;
+  margin-right: 0px;
 
   @media screen and (max-width: 758px) {
     display: none;
@@ -79,6 +79,6 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #01bf71;
+    color: #01bf71;
   }
 `;

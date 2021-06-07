@@ -57,8 +57,7 @@ export const TopBarLink = styled(LinkS)`
   color: #fff;
   cursor: pointer;
 
-  &:hover {
+  & :active {
     color: #01bf71;
-    transition: 0.6s ease-in-out;
   }
 `;
