@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
 
 export const LandingContainer = styled.div`
-  background: #0c0c0c;
+  background: #232a34;
   display: flex;
   justify-content: center;
   align-items: center;

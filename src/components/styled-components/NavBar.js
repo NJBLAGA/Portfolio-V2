@@ -3,7 +3,7 @@ import { Link as LinkS } from "react-scroll";
 import { ImHome3 } from "react-icons/im";
 
 export const Nav = styled.nav`
-  background: #000;
+  background: #232a34;
   height: 80px;
   justify-content: center;
   align-items: right;
