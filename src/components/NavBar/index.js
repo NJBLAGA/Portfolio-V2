@@ -20,7 +20,7 @@ const NavBar = ({ toggle }) => {
             <FaBars />
           </MobileIcon>
           <NavMenu>
-            <NavLogo size={50} onClick={() => scroll.scrollToTop()}></NavLogo>
+            <NavLogo size={35} onClick={() => scroll.scrollToTop()}></NavLogo>
             <NavItem>
               <NavLinks
                 to="about"

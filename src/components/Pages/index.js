@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import LandingSection from "../Landing";
 import NavBar from "../NavBar";
-import Section from "../Sections";
 import TopBar from "../TopBar";
+import AboutMe from "../About/index";
+import Projects from "../Projects/index";
+import Contact from "../Contact/index";
 import {
   aboutSection,
   projectsSection,
@@ -21,9 +23,9 @@ const Home = () => {
       <LandingSection />
       <TopBar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
-      <Section {...aboutSection} />
-      <Section {...projectsSection} />
-      <Section {...contactSection} />
+      <AboutMe {...aboutSection} />
+      <Projects {...projectsSection} />
+      <Contact {...contactSection} />
     </>
   );
 };
