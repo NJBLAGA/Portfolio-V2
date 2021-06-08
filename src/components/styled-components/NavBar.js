@@ -80,6 +80,14 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    color: #01bf71;
+    :nth-child(1) {
+      color: #f64f59;
+    }
+    :nth-child(2) {
+      color: #c471ed;
+    }
+    :nth-child(3) {
+      color: #01bf71;
+    }
   }
 `;

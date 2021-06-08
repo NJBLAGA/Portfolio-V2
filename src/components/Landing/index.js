@@ -7,7 +7,9 @@ import {
   Landing1,
   LandingP,
   LandingWrapper,
-  Button,
+  AboutLink,
+  InnerBox,
+  AboutButton,
 } from "../styled-components/Landing";
 import { landingSection } from "../Sections/pages";
 
@@ -19,19 +21,22 @@ const LandingSection = () => {
       </LandingIm>
       <LandingContent>
         <Landing1>Hi! I'm Nathan.</Landing1>
-        <LandingP>I'm a Full Stack Developer</LandingP>
-        <LandingP></LandingP>
+        <LandingP>Creative - Driven - Passionate</LandingP>
         <LandingWrapper>
-          <Button
-            to="about"
-            smooth={true}
-            duration={1500}
-            spy={true}
-            exact="true"
-            offset={-80}
-          >
-            About Me
-          </Button>
+          <InnerBox>
+            <AboutButton>
+              <AboutLink
+                to="about"
+                smooth={true}
+                duration={1500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                About Me
+              </AboutLink>
+            </AboutButton>
+          </InnerBox>
         </LandingWrapper>
       </LandingContent>
     </LandingContainer>
