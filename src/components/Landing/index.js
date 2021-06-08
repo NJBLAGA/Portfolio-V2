@@ -9,10 +9,11 @@ import {
   LandingWrapper,
   Button,
 } from "../styled-components/Landing";
+import { landingSection } from "../Sections/pages";
 
 const LandingSection = () => {
   return (
-    <LandingContainer>
+    <LandingContainer {...landingSection}>
       <LandingIm>
         <LandingImage />
       </LandingIm>

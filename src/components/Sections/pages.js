@@ -18,3 +18,7 @@ export const contactSection = {
   lightText: false,
   headline: "Contact",
 };
+
+export const landingSection = {
+  id: "landing",
+};
