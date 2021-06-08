@@ -5,12 +5,12 @@ import {
   Heading,
 } from "../styled-components/Sections";
 
-const Section = ({ lightBg, id, headline, lightText, darkText }) => {
+const Section = ({ id, headline }) => {
   return (
     <>
-      <SectionContainer lightBg={lightBg} id={id}>
+      <SectionContainer id={id}>
         <SectionWrapper>
-          <Heading lightText={lightText}>{headline}</Heading>
+          <Heading>{headline}</Heading>
         </SectionWrapper>
       </SectionContainer>
     </>

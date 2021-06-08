@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
+import { ImHome3 } from "react-icons/im";
 
 export const Nav = styled.nav`
-  background: #000;
+  background: #232a34;
   height: 80px;
   justify-content: center;
   align-items: right;
@@ -26,7 +27,7 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 `;
 
-export const NavLogo = styled.div`
+export const NavLogo = styled(ImHome3)`
   color: #fff;
   justify-content: flex-start;
   cursor: pointer;
@@ -79,6 +80,14 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    color: #01bf71;
+    :nth-child(1) {
+      color: #f64f59;
+    }
+    :nth-child(2) {
+      color: #c471ed;
+    }
+    :nth-child(3) {
+      color: #01bf71;
+    }
   }
 `;

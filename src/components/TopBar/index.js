@@ -16,6 +16,14 @@ function TopBar({ isOpen, toggle }) {
       </Icon>
       <TopBarWrapper>
         <TopBarMenu>
+          <TopBarLink
+            to="landing"
+            smooth={true}
+            duration={1500}
+            onClick={toggle}
+          >
+            Home
+          </TopBarLink>
           <TopBarLink to="about" smooth={true} duration={1500} onClick={toggle}>
             About
           </TopBarLink>

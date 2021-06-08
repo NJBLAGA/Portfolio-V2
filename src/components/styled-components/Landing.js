@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
 
 export const LandingContainer = styled.div`
-  background: #0c0c0c;
+  background: #232a34;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,11 +23,9 @@ export const LandingIm = styled.div`
   overflow: hidden;
 `;
 
-export const LandingVid = styled.video`
+export const LandingImage = styled.div`
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
   background: #232a34;
 `;
 
@@ -61,14 +59,6 @@ export const LandingP = styled.p`
   font-size: 24px;
   text-align: center;
   max-width: 600px;
-
-  @media screen and (max-width: 768px) {
-    font-size: 24px;
-  }
-
-  @media screen and (max-width: 480px) {
-    font-size: 18px;
-  }
 `;
 
 export const LandingWrapper = styled.div`
@@ -78,14 +68,32 @@ export const LandingWrapper = styled.div`
   align-items: center;
 `;
 
-export const Button = styled(LinkS)`
-  color: #fff;
-  display: flex;
-  align-items: center;
+export const AboutLink = styled(LinkS)`
   text-decoration: none;
-  padding: 0 1rem;
+`;
+
+export const InnerBox = styled.div`
+  width: 200px;
+  height: 50px;
+  background: #fff;
+  position: relative;
+`;
+
+export const AboutButton = styled.button`
+  position: absolute;
+  width: 100%;
   height: 100%;
+  font-size: 1.1em;
+  background: #232a34;
+  border: 1.5px solid #fff;
+  color: #fff;
   cursor: pointer;
-  border: 5px solid #01bf71;
-  border-radius: 80%;
+  transition: all 0.4s;
+  z-index: 3;
+
+  &:hover {
+    color: #fff;
+    border: none;
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  }
 `;

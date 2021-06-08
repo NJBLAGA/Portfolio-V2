@@ -1,36 +1,42 @@
 import React from "react";
-import Video from "../Videos/landing.mp4";
 import {
   LandingContainer,
   LandingIm,
-  LandingVid,
+  LandingImage,
   LandingContent,
   Landing1,
   LandingP,
   LandingWrapper,
-  Button,
+  AboutLink,
+  InnerBox,
+  AboutButton,
 } from "../styled-components/Landing";
+import { landingSection } from "../Sections/pages";
 
 const LandingSection = () => {
   return (
-    <LandingContainer>
+    <LandingContainer {...landingSection}>
       <LandingIm>
-        <LandingVid autoPlay loop muted src={Video} type="video/mp4" />
+        <LandingImage />
       </LandingIm>
       <LandingContent>
         <Landing1>Hi! I'm Nathan.</Landing1>
-        <LandingP>I'm a Full Stack Developer</LandingP>
-        <LandingP></LandingP>
+        <LandingP>Creative - Driven - Passionate</LandingP>
         <LandingWrapper>
-          <Button
-            to="about"
-            smooth={true}
-            duration={1500}
-            spy={true}
-            exact="true"
-          >
-            About Me
-          </Button>
+          <InnerBox>
+            <AboutButton>
+              <AboutLink
+                to="about"
+                smooth={true}
+                duration={1500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                About Me
+              </AboutLink>
+            </AboutButton>
+          </InnerBox>
         </LandingWrapper>
       </LandingContent>
     </LandingContainer>

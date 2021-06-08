@@ -16,11 +16,11 @@ const NavBar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo onClick={() => scroll.scrollToTop()}>Blaga</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
+            <NavLogo size={50} onClick={() => scroll.scrollToTop()}></NavLogo>
             <NavItem>
               <NavLinks
                 to="about"
