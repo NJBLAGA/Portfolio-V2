@@ -23,11 +23,9 @@ export const LandingIm = styled.div`
   overflow: hidden;
 `;
 
-export const LandingVid = styled.video`
+export const LandingImage = styled.div`
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
   background: #232a34;
 `;
 

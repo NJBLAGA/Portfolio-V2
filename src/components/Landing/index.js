@@ -1,9 +1,8 @@
 import React from "react";
-import Video from "../Videos/landing.mp4";
 import {
   LandingContainer,
   LandingIm,
-  LandingVid,
+  LandingImage,
   LandingContent,
   Landing1,
   LandingP,
@@ -15,7 +14,7 @@ const LandingSection = () => {
   return (
     <LandingContainer>
       <LandingIm>
-        <LandingVid autoPlay loop muted src={Video} type="video/mp4" />
+        <LandingImage />
       </LandingIm>
       <LandingContent>
         <Landing1>Hi! I'm Nathan.</Landing1>
@@ -28,6 +27,7 @@ const LandingSection = () => {
             duration={1500}
             spy={true}
             exact="true"
+            offset={-80}
           >
             About Me
           </Button>
