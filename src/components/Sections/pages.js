@@ -17,7 +17,7 @@ import {
   SiTrello,
   SiNetlify,
 } from "react-icons/si";
-import { FaJs, FaNode, FaReact, FaSass, FaDownload } from "react-icons/fa";
+import { FaJs, FaNode, FaReact, FaSass } from "react-icons/fa";
 
 export const aboutSection = {
   id: "about",
