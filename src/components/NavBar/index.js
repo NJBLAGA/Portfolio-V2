@@ -28,7 +28,7 @@ const NavBar = ({ toggle }) => {
                 duration={1500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-10}
               >
                 About
               </NavLinks>

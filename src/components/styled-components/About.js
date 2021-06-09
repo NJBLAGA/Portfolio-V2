@@ -27,17 +27,21 @@ export const AboutWrapper = styled.div`
 `;
 
 export const Title = styled.h1`
+  justify-self: center;
   font-size: 80px;
   font-weight: 800;
   color: black;
   align-self: center;
+
   margin-bottom: 20px;
   @media screen and (max-width: 480px) {
     font-size: 32px;
+    margin-top: 40px;
   }
 
   @media screen and (max-width: 768px) {
     align-self: left;
+    margin-top: px;
   }
 `;
 
@@ -65,42 +69,43 @@ export const AboutLeftSide = styled.div`
 
 export const BioOne = styled.p`
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   width: 800px;
   font-size: 20px;
 
   @media screen and (max-width: 768px) {
     width: 100%;
     font-size: 15px;
+    text-align: left;
   }
 `;
 
 export const Skills = styled.div`
-  height: 150px;
+  height: 90%;
+  width: 100%;
   align-items: center;
   width: 800px;
   display: flex;
   flex-wrap: wrap;
-  padding: 5px;
   margin-top: 5px;
   margin-left: 0;
   background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
   border: 5px solid #232a34;
-  border-radius: 10%;
+  border-radius: 0%;
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: row;
     height: 90%;
     width: 100%;
-    margin: 10px;
+    margin-top: 10px;
     border: 2px solid #232a34;
-    border-radius: 5%;
-    padding: 4px;
+    border-radius: 0%;
+    padding: 10px;
   }
 `;
 
 export const Skill = styled.div`
-  margin: 8px;
+  margin: 10px;
   color: #fff;
 
   &:hover {
@@ -108,23 +113,18 @@ export const Skill = styled.div`
   }
   @media screen and (max-width: 768px) {
     padding: 2px;
+    margin: 8px;
   }
-`;
-
-export const AboutRightSide = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-right: 10px;
-  margin-bottom: 10px;
 `;
 
 export const AboutImage = styled.img`
   width: 350px;
   height: 350px;
   border-radius: 25px;
+  align-self: center;
+  margin-bottom: 20px;
   @media screen and (max-width: 768px) {
     align-self: center;
-    margin-top: 10px;
     width: 200px;
     height: 200px;
   }

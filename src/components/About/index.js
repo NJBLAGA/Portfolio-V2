@@ -8,37 +8,33 @@ import {
   BioOne,
   Skills,
   Skill,
-  AboutRightSide,
   AboutImage,
 } from "../styled-components/About";
 
 const AboutMe = ({ id, title, img, alt, skills, bioOne }) => {
   return (
-    <>
+    <React.Fragment>
       <AboutContainer id={id}>
         <AboutWrapper>
-          <Title>{title}</Title>
           <AboutSubSection>
             <AboutLeftSide>
+              <Title>{title}</Title>
+              <AboutImage src={img} alt={alt} />
               <BioOne>{bioOne}</BioOne>
               <Skills>
                 {skills.map(function (SkillIcons) {
                   return (
-                    <Skill>
-                      <SkillIcons size={30} key={id} />
+                    <Skill key={SkillIcons.toString()}>
+                      <SkillIcons size={40} />
                     </Skill>
                   );
                 })}
               </Skills>
             </AboutLeftSide>
-
-            <AboutRightSide>
-              <AboutImage src={img} alt={alt} />
-            </AboutRightSide>
           </AboutSubSection>
         </AboutWrapper>
       </AboutContainer>
-    </>
+    </React.Fragment>
   );
 };
 

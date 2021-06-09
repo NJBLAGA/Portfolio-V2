@@ -41,8 +41,18 @@ export const LandingContent = styled.div`
 
 export const Landing1 = styled.h1`
   color: #fff;
-  font-size: 100px;
-  text-align: center;
+  font-size: 50px;
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #f64f59;
+    }
+  }
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
@@ -56,9 +66,28 @@ export const Landing1 = styled.h1`
 export const LandingP = styled.p`
   margin-top: 24px;
   color: #fff;
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
   max-width: 600px;
+  text-align: center;
+  overflow: hidden;
+  border-right: 0.2em solid #f64f59;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 3.5s steps(30, end), 0.75s step-end infinite;
+
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 20px;
+  }
 `;
 
 export const LandingWrapper = styled.div`
