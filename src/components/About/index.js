@@ -3,6 +3,7 @@ import {
   AboutContainer,
   AboutWrapper,
   Title,
+  TitleSub,
   AboutSubSection,
   AboutLeftSide,
   BioOne,
@@ -21,11 +22,12 @@ const AboutMe = ({ id, title, img, alt, skills, bioOne }) => {
               <Title>{title}</Title>
               <AboutImage src={img} alt={alt} />
               <BioOne>{bioOne}</BioOne>
+              <TitleSub>Technologies</TitleSub>
               <Skills>
                 {skills.map(function (SkillIcons) {
                   return (
                     <Skill key={SkillIcons.toString()}>
-                      <SkillIcons size={40} />
+                      <SkillIcons />
                     </Skill>
                   );
                 })}

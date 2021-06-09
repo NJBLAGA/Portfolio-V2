@@ -29,14 +29,47 @@ export const AboutWrapper = styled.div`
 
 export const Title = styled.h1`
   justify-self: center;
-  font-size: 80px;
+  font-size: 60px;
+  font-weight: 800;
+  color: black;
+  align-self: center;
+  margin-bottom: 20px;
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    font-size: 30px;
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    font-size: 30px;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    font-size: 30px;
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    font-size: 30px;
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    font-size: 30px;
+  }
+`;
+
+export const TitleSub = styled.h2`
+  justify-self: center;
+  font-size: 40px;
   font-weight: 800;
   color: black;
   align-self: center;
 
   margin-bottom: 20px;
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 25px;
     margin-top: 40px;
   }
 
@@ -71,7 +104,7 @@ export const AboutLeftSide = styled.div`
 export const BioOne = styled.p`
   margin-top: 10px;
   margin-bottom: 20px;
-  width: 800px;
+  width: 1000px;
   font-size: 20px;
 
   @media screen and (max-width: 768px) {
@@ -84,37 +117,31 @@ export const BioOne = styled.p`
 export const Skills = styled.div`
   height: 90%;
   align-items: center;
-  width: 800px;
+  width: 1000px;
   display: flex;
   flex-wrap: wrap;
   background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
   border: 5px solid #232a34;
   border-radius: 0%;
 
-  @media screen and (max-width: 768px) {
-    display: flex;
-    flex-wrap: wrap;
-    align-self: center;
-    align-items: center;
-    height: 90%;
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
     width: 100%;
-    border: 2px solid #232a34;
-    border-radius: 0%;
-    padding: 25px;
   }
 
-  @media screen and (max-width: 640px) {
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
     width: 100%;
-    align-items: center;
   }
 
-  @media screen and (max-width: 570px) {
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
     width: 100%;
-    align-items: center;
   }
 
-  @media screen and (max-width: 325px) {
-    margin: 5px;
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    width: 100%;
   }
 `;
 
@@ -126,25 +153,31 @@ export const Skill = styled.div`
     transform: scale(1.5);
   }
 
-  @media screen and (max-width: 768px) {
-    padding: 2px;
-    margin: 8px;
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    font-size: 30px;
   }
 
-  @media screen and (max-width: 415px) {
-    margin: 10px;
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    font-size: 50px;
   }
 
-  @media screen and (max-width: 375px) {
-    margin: 15px;
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    font-size: 60px;
+    padding: 10px;
   }
 
-  @media screen and (max-width: 361px) {
-    margin: 13px;
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    font-size: 50px;
   }
 
-  @media screen and (max-width: 325px) {
-    margin: 7px;
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    font-size: 55px;
+    padding: 5px;
   }
 `;
 
