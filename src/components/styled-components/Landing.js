@@ -82,7 +82,7 @@ export const Landing1 = styled.h1`
 `;
 
 export const Landing1Name = styled.p`
-  color: #01bf71;
+  color: #fff;
   display: inline;
 `;
 
@@ -95,7 +95,7 @@ export const LandingP = styled.div`
   text-align: center;
 
   overflow: hidden;
-  border-right: 0.2em solid #ffff00;
+  border-right: 0.2em solid #fff;
   white-space: nowrap;
   margin: 0 auto;
   animation: typing 3.5s steps(30, end), 0.75s step-end infinite;
