@@ -5,7 +5,11 @@ import {
   LandingImage,
   LandingContent,
   Landing1,
+  Landing1Name,
   LandingP,
+  LandingPOne,
+  LandingPTwo,
+  LandingPThree,
   LandingWrapper,
   AboutLink,
   InnerBox,
@@ -20,8 +24,15 @@ const LandingSection = () => {
         <LandingImage />
       </LandingIm>
       <LandingContent>
-        <Landing1>Hi! I'm Nathan.</Landing1>
-        <LandingP>Creative - Driven - Passionate</LandingP>
+        <Landing1>
+          Hi! I'm
+          <Landing1Name> Nathan</Landing1Name>.
+        </Landing1>
+        <LandingP>
+          <LandingPOne>Creative</LandingPOne> -{" "}
+          <LandingPTwo>Driven</LandingPTwo> -{" "}
+          <LandingPThree>Passionate</LandingPThree>
+        </LandingP>
         <LandingWrapper>
           <InnerBox>
             <AboutButton>

@@ -41,7 +41,6 @@ export const LandingContent = styled.div`
 
 export const Landing1 = styled.h1`
   color: #fff;
-  font-size: 50px;
 
   /* The typewriter cursor effect */
   @keyframes blink-caret {
@@ -54,24 +53,49 @@ export const Landing1 = styled.h1`
     }
   }
 
-  @media screen and (max-width: 768px) {
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
     font-size: 40px;
+    margin-bottom: 20px;
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
   }
 
-  @media screen and (max-width: 480px) {
-    font-size: 30px;
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    font-size: 110px;
+    margin-bottom: 20px;
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    font-size: 80px;
+    margin-bottom: 20px;
   }
 `;
 
-export const LandingP = styled.p`
+export const Landing1Name = styled.p`
+  color: #01bf71;
+  display: inline;
+`;
+
+export const LandingP = styled.div`
   margin-top: 24px;
   color: #fff;
   font-size: 30px;
   text-align: center;
   max-width: 600px;
   text-align: center;
+
   overflow: hidden;
-  border-right: 0.2em solid #f64f59;
+  border-right: 0.2em solid #ffff00;
   white-space: nowrap;
   margin: 0 auto;
   animation: typing 3.5s steps(30, end), 0.75s step-end infinite;
@@ -85,9 +109,47 @@ export const LandingP = styled.p`
       width: 100%;
     }
   }
-  @media screen and (max-width: 480px) {
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
     font-size: 20px;
+    margin-bottom: 20px;
   }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+`;
+
+export const LandingPOne = styled.p`
+  color: #f64f59;
+  display: inline;
+`;
+
+export const LandingPTwo = styled.p`
+  color: #c471ed;
+  display: inline;
+`;
+
+export const LandingPThree = styled.p`
+  color: #12c2e9;
+  display: inline;
 `;
 
 export const LandingWrapper = styled.div`
