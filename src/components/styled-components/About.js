@@ -13,7 +13,7 @@ export const AboutWrapper = styled.div`
   display: flex;
   flex-direction: column;
   z-index: 1;
-  height: 150vh;
+  height: 100vh;
   width: 100%;
   max-width: 1100px;
   margin-left: auto;
@@ -106,12 +106,32 @@ export const BioOne = styled.p`
   margin-top: 10px;
   margin-bottom: 20px;
   width: 1000px;
-  font-size: 20px;
 
-  @media screen and (max-width: 768px) {
-    width: 100%;
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
     font-size: 15px;
-    text-align: left;
+    width: 100%;
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    font-size: 0px;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    font-size: 20px;
   }
 `;
 
