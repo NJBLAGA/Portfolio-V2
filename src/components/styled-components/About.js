@@ -34,29 +34,30 @@ export const Title = styled.h1`
   color: black;
   align-self: center;
   margin-bottom: 20px;
+
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    font-size: 30px;
+    font-size: 40px;
+    margin-top: 40px;
   }
-
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
-    font-size: 30px;
+    font-size: 0px;
   }
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    font-size: 30px;
+    font-size: 50px;
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    font-size: 30px;
+    font-size: 60px;
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    font-size: 30px;
+    font-size: 70px;
   }
 `;
 
