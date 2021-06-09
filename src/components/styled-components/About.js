@@ -23,6 +23,7 @@ export const AboutWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     width: 90%;
+    height: 200vh;
   }
 `;
 
@@ -82,25 +83,38 @@ export const BioOne = styled.p`
 
 export const Skills = styled.div`
   height: 90%;
-  width: 100%;
   align-items: center;
   width: 800px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5px;
-  margin-left: 0;
   background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
   border: 5px solid #232a34;
   border-radius: 0%;
+
   @media screen and (max-width: 768px) {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
     height: 90%;
     width: 100%;
-    margin-top: 10px;
     border: 2px solid #232a34;
     border-radius: 0%;
-    padding: 10px;
+    padding: 25px;
+  }
+
+  @media screen and (max-width: 640px) {
+    width: 100%;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 570px) {
+    width: 100%;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 325px) {
+    margin: 5px;
   }
 `;
 
@@ -111,9 +125,26 @@ export const Skill = styled.div`
   &:hover {
     transform: scale(1.5);
   }
+
   @media screen and (max-width: 768px) {
     padding: 2px;
     margin: 8px;
+  }
+
+  @media screen and (max-width: 415px) {
+    margin: 10px;
+  }
+
+  @media screen and (max-width: 375px) {
+    margin: 15px;
+  }
+
+  @media screen and (max-width: 361px) {
+    margin: 13px;
+  }
+
+  @media screen and (max-width: 325px) {
+    margin: 7px;
   }
 `;
 
