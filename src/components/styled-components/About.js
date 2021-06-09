@@ -151,7 +151,7 @@ export const Skill = styled.div`
   color: #fff;
 
   &:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
   }
 
   /* Extra small devices (phones, 600px and down) */
