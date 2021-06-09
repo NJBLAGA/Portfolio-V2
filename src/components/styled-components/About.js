@@ -13,7 +13,7 @@ export const AboutWrapper = styled.div`
   display: flex;
   flex-direction: column;
   z-index: 1;
-  height: 100vh;
+  height: 150vh;
   width: 100%;
   max-width: 1100px;
   margin-left: auto;
@@ -30,13 +30,14 @@ export const Title = styled.h1`
   font-size: 80px;
   font-weight: 800;
   color: black;
-  margin-left: 5px;
+  align-self: center;
+  margin-bottom: 20px;
   @media screen and (max-width: 480px) {
     font-size: 32px;
   }
 
   @media screen and (max-width: 768px) {
-    align-self: center;
+    align-self: left;
   }
 `;
 
@@ -56,47 +57,75 @@ export const AboutSubSection = styled.div`
 export const AboutLeftSide = styled.div`
   display: flex;
   flex-direction: column;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  @media screen and (max-width: 768px) {
+  }
 `;
 
-export const Bio = styled.p`
+export const BioOne = styled.p`
   margin-top: 10px;
-  width: 500px;
+  margin-bottom: 10px;
+  width: 800px;
   font-size: 20px;
 
   @media screen and (max-width: 768px) {
     width: 100%;
-    font-size: 10px;
+    font-size: 15px;
   }
 `;
 
 export const Skills = styled.div`
-  height: 300px;
-  width: 500px;
-  background: grey;
+  height: 150px;
+  align-items: center;
+  width: 800px;
   display: flex;
   flex-wrap: wrap;
   padding: 5px;
-  color: #fff;
+  margin-top: 5px;
+  margin-left: 0;
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  border: 5px solid #232a34;
+  border-radius: 10%;
   @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    width: 100%;
+    margin: 10px;
+    border: 2px solid #232a34;
+    border-radius: 5%;
+    padding: 4px;
   }
 `;
 
 export const Skill = styled.div`
-  margin: 5px;
+  margin: 8px;
   color: #fff;
 
   &:hover {
+    transform: scale(1.5);
   }
   @media screen and (max-width: 768px) {
+    padding: 2px;
   }
 `;
 
+export const AboutRightSide = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-bottom: 10px;
+`;
+
 export const AboutImage = styled.img`
-  width: 50%;
+  width: 350px;
+  height: 350px;
   border-radius: 25px;
   @media screen and (max-width: 768px) {
     align-self: center;
     margin-top: 10px;
-    width: 70%;
+    width: 200px;
+    height: 200px;
   }
 `;
