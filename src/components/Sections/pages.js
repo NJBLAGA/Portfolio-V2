@@ -53,6 +53,45 @@ export const aboutSection = {
 export const projectsSection = {
   id: "projects",
   title: "Projects",
+  projects: [
+    {
+      name: "Hackathon2",
+      image: "I am a Image",
+      description: "Hello World! My name is Nathan!",
+      demo: "www.demo.com",
+      source: "www.source.com",
+    },
+
+    {
+      name: "Hackathon 1",
+      image: "I am a Image 2",
+      description: "Hello World! My name is Joshua!",
+      demo: "www.demo.com",
+      source: "www.source.com",
+    },
+
+    {
+      name: "Rails Project",
+      image: "I am a Image 3",
+      description: "Hello World! My name is Nicole!",
+      demo: "www.demo.com",
+      source: "www.source.com",
+    },
+    {
+      name: "Ruby Terminal",
+      image: "I am a Image 3",
+      description: "Hello World! My name is Nicole!",
+      demo: "www.demo.com",
+      source: "www.source.com",
+    },
+    {
+      name: "Portfolio 1",
+      image: "I am a Image 3",
+      description: "Hello World! My name is Nicole!",
+      demo: "www.demo.com",
+      source: "www.source.com",
+    },
+  ],
 };
 
 export const contactSection = {
