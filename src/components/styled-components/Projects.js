@@ -32,3 +32,15 @@ export const Title = styled.h1`
     font-size: 32px;
   }
 `;
+
+export const ProjectContainer = styled.div``;
+
+export const ProjectImage = styled.p``;
+
+export const ProjectName = styled.h1``;
+
+export const ProjectDescription = styled.p``;
+
+export const ProjectLiveDemoLink = styled.p``;
+
+export const ProjectSourceCodeLink = styled.p``;
