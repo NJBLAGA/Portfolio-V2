@@ -54,42 +54,54 @@ export const projectsSection = {
   id: "projects",
   title: "Projects",
   projects: [
-    {
-      name: "Hackathon2",
-      image: "I am a Image",
-      description: "Hello World! My name is Nathan!",
-      demo: "www.demo.com",
-      source: "www.source.com",
-    },
+    // {
+    //   name: "Hackathon2",
+    //   image: "I am a Image",
+    //   description: "Hello World! My name is Nathan!",
+    //   demo: "www.demo.com",
+    //   source: "www.source.com",
+    // },
 
     {
       name: "Hackathon 1",
-      image: "I am a Image 2",
-      description: "Hello World! My name is Joshua!",
-      demo: "www.demo.com",
-      source: "www.source.com",
+      image: nathan,
+      alt: "Picture of Me",
+      tech_stack: [SiRuby, SiRails, SiPostgresql, SiHeroku, SiTailwindcss],
+      description:
+        "Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+      demo: "nathanblaga.me",
+      source: "nathanblaga.me",
     },
 
     {
       name: "Rails Project",
-      image: "I am a Image 3",
-      description: "Hello World! My name is Nicole!",
-      demo: "www.demo.com",
-      source: "www.source.com",
+      image: nathan,
+      alt: "Picture of Me",
+      tech_stack: [SiRuby, SiRails, SiPostgresql, SiHeroku, SiTailwindcss],
+      description:
+        "Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+      demo: "nathanblaga.me",
+      source: "nathanblaga.me",
     },
     {
       name: "Ruby Terminal",
-      image: "I am a Image 3",
-      description: "Hello World! My name is Nicole!",
-      demo: "www.demo.com",
-      source: "www.source.com",
+      image: nathan,
+      alt: "Picture of Me",
+      tech_stack: [SiRuby, SiRails, SiPostgresql, SiHeroku, SiTailwindcss],
+      description:
+        "Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+      demo: "nathanblaga.me",
+      source: "nathanblaga.me",
     },
     {
       name: "Portfolio 1",
-      image: "I am a Image 3",
-      description: "Hello World! My name is Nicole!",
-      demo: "www.demo.com",
-      source: "www.source.com",
+      image: nathan,
+      alt: "Picture of Me",
+      tech_stack: [SiRuby, SiRails, SiPostgresql, SiHeroku, SiTailwindcss],
+      description:
+        "Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+      demo: "nathanblaga.me",
+      source: "nathanblaga.me",
     },
   ],
 };
