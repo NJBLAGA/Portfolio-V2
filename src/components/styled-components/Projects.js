@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-  height: 400vh;
   color: black;
   display: flex;
   flex-direction: column;
@@ -11,11 +10,11 @@ export const ProjectsContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
-    height: 350vh;
+    height: 450vh;
   }
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    height: 250vh;
+    height: 310vh;
   }
 `;
 
@@ -77,7 +76,7 @@ export const ProjectImage = styled.img`
   width: 100%;
   height: 70%;
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   @media only screen and (max-width: 600px) {
     width: 100%;
@@ -122,11 +121,11 @@ export const TechStackIcon = styled.p`
     color: #f64f59;
   }
   @media only screen and (max-width: 600px) {
-    font-size: 30px;
+    font-size: 20px;
   }
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    font-size: 35px;
+    font-size: 20px;
   }
 `;
 
