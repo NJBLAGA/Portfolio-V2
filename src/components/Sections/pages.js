@@ -79,7 +79,7 @@ export const projectsSection = {
         SiTrello,
       ],
       description:
-        "For my second Coder Academy hackathon, my team utilised newsapi.org and React to build a one page application that offers users news articles from across the globe. The project challenged us to develop an adaptive and user-friendly application which utilised React states.",
+        "For my second Coder Academy hackathon, my team utilised newsapi.org and React to build a single-page application that offers users news articles from across the globe. The project challenged us to develop an adaptive and user-friendly application which utilised React states.",
       demo: "https://github.com/Channel7News/reackathon",
       source: "https://github.com/Channel7News/reackathon",
     },
@@ -111,7 +111,7 @@ export const projectsSection = {
         SiTrello,
       ],
       description:
-        "Two-sided marketplace in which Australian consumers can buy and sell new and used fitness equipment. Approached with an agile development mindset, I utilised feature sprints and implemented continuous deployment with the aid of development and production pipelines. The database for Workout Jungle's user base and their listings provided an interesting yet challenging experience.   ",
+        "A two-sided marketplace in which Australian consumers can buy and sell new and used fitness equipment. Approached with an agile development mindset, I utilised feature sprints and implemented continuous deployment with the aid of development and production pipelines. The database for Workout Jungle's user base and their listings provided an interesting yet challenging experience.   ",
       demo: " https://workout-jungle.herokuapp.com",
       source: "https://github.com/NJBLAGA/Workout_Jungle",
     },
