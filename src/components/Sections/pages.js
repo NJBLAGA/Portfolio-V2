@@ -16,8 +16,11 @@ import {
   SiAmazonaws,
   SiTrello,
   SiNetlify,
+  SiGmail,
+  SiLinkedin,
+  SiTwitter,
 } from "react-icons/si";
-import { FaJs, FaNode, FaReact, FaSass } from "react-icons/fa";
+import { FaJs, FaNode, FaReact, FaSass, FaFileDownload } from "react-icons/fa";
 
 export const aboutSection = {
   id: "about",
@@ -54,14 +57,6 @@ export const projectsSection = {
   id: "projects",
   title: "Projects",
   projects: [
-    // {
-    //   name: "Hackathon2",
-    //   image: "I am a Image",
-    //   description: "Hello World! My name is Nathan!",
-    //   demo: "www.demo.com",
-    //   source: "www.source.com",
-    // },
-
     {
       name: "Hackathon 1",
       image: nathan,
@@ -108,7 +103,24 @@ export const projectsSection = {
 
 export const contactSection = {
   id: "contact",
-  title: "Contact Me",
+  title: "Contact",
+  message: "Hey! Contact me!",
+  socialMedia: [
+    {
+      icon: FaFileDownload,
+      link: "Nathan Blaga - Resume.pdf",
+    },
+    {
+      icon: SiGmail,
+      link: "mailto:nathanblaga90@gmail.com",
+    },
+    { icon: SiGithub, link: "https://github.com/NJBLAGA" },
+    {
+      icon: SiLinkedin,
+      link: "https://www.linkedin.com/in/nathan-blaga-aa823b172/",
+    },
+    { icon: SiTwitter, link: "https://twitter.com/BlagaNathan" },
+  ],
 };
 
 export const landingSection = {

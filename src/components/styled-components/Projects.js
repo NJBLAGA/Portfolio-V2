@@ -7,6 +7,7 @@ export const ProjectsContainer = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 40px 0;
+  margin-bottom: 50px;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
