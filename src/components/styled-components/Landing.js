@@ -132,7 +132,7 @@ export const LandingP = styled.div`
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 20px;
   }
 `;
