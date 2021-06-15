@@ -1,12 +1,18 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
+  height: 170vh;
+  width: 100%;
   color: black;
   padding: 70px 0;
-  margin-bottom: 100px;
 
   @media screen and (max-width: 768px) {
     padding: 40px 0;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    height: 110vh;
   }
 `;
 

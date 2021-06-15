@@ -1,20 +1,34 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
+  height: 320vh;
+  width: 100%;
   color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 40px 0;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
-    height: 450vh;
   }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    height: 430vh;
+  }
+
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    height: 310vh;
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
   }
 `;
 

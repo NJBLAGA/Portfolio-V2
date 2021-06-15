@@ -110,7 +110,7 @@ export const MediaLinks = styled.a`
   }
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
