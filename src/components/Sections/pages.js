@@ -1,4 +1,9 @@
 import nathan from "../images/nathan.jpg";
+import Channel7News_LandingPage from "../images/Channel7News_LandingPage.png";
+import GetLucky3000_LandingPage from "../images/GetLucky3000_LandingPage.png";
+import WorkoutJungle_LandingPage from "../images/WorkoutJungle_LandingPage.png";
+import Zop_MainMenu from "../images/Zop_MainMenu.png";
+import FirstPortfolio_LandingPage from "../images/FirstPortfolio_LandingPage.png";
 import { BsFillTerminalFill } from "react-icons/bs";
 import {
   SiGit,
@@ -10,7 +15,9 @@ import {
   SiPostgresql,
   SiRuby,
   SiRails,
+  SiBootstrap,
   SiTailwindcss,
+  SiStyledComponents,
   SiMaterialUi,
   SiHeroku,
   SiAmazonaws,
@@ -58,45 +65,82 @@ export const projectsSection = {
   title: "Projects",
   projects: [
     {
-      name: "Hackathon 1",
-      image: nathan,
-      alt: "Picture of Me",
-      tech_stack: [SiRuby, SiRails, SiPostgresql, SiHeroku, SiTailwindcss],
+      name: "Channel 7 News",
+      image: Channel7News_LandingPage,
+      alt: "Image of Channel 7 News Landing Page",
+      tech_stack: [
+        FaReact,
+        SiHtml5,
+        SiCss3,
+        FaJs,
+        SiStyledComponents,
+        SiGithub,
+        SiTrello,
+      ],
       description:
         "Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
-      demo: "nathanblaga.me",
-      source: "nathanblaga.me",
+      demo: "https://github.com/Channel7News/reackathon",
+      source: "https://github.com/Channel7News/reackathon",
     },
 
     {
-      name: "Rails Project",
-      image: nathan,
-      alt: "Picture of Me",
-      tech_stack: [SiRuby, SiRails, SiPostgresql, SiHeroku, SiTailwindcss],
+      name: "Get Lucky 3000",
+      image: GetLucky3000_LandingPage,
+      alt: "Image of Get Lucky 3000 Landing Page",
+      tech_stack: [SiHtml5, SiCss3, FaJs, SiGithub, SiTrello, SiNetlify],
       description:
         "Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
-      demo: "nathanblaga.me",
-      source: "nathanblaga.me",
+      demo: "https://getlucky3000.netlify.app/",
+      source: "https://github.com/theandrewfulton/getlucky3000",
+    },
+
+    {
+      name: "Workout Jungle",
+      image: WorkoutJungle_LandingPage,
+      alt: "Image of Workout Jungle Listing Page",
+      tech_stack: [
+        SiRails,
+        SiPostgresql,
+        SiGithub,
+        SiHtml5,
+        SiCss3,
+        FaJs,
+        SiHeroku,
+        SiBootstrap,
+        SiTrello,
+      ],
+      description:
+        "Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+      demo: " https://workout-jungle.herokuapp.com",
+      source: "https://github.com/NJBLAGA/Workout_Jungle",
     },
     {
-      name: "Ruby Terminal",
-      image: nathan,
-      alt: "Picture of Me",
-      tech_stack: [SiRuby, SiRails, SiPostgresql, SiHeroku, SiTailwindcss],
+      name: "Zop - Quiz Game",
+      image: Zop_MainMenu,
+      alt: "Image of the Main Menu of Zop",
+      tech_stack: [SiRuby, SiGithub, SiTrello],
       description:
         "Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
-      demo: "nathanblaga.me",
-      source: "nathanblaga.me",
+      demo: "https://github.com/NJBLAGA/NathanBlaga_T1A3",
+      source: "https://github.com/NJBLAGA/NathanBlaga_T1A3",
     },
     {
-      name: "Portfolio 1",
-      image: nathan,
-      alt: "Picture of Me",
-      tech_stack: [SiRuby, SiRails, SiPostgresql, SiHeroku, SiTailwindcss],
+      name: "First Portfolio",
+      image: FirstPortfolio_LandingPage,
+      alt: "Image of My First Portfolio Landing Page",
+      tech_stack: [
+        SiGithub,
+        SiHtml5,
+        SiCss3,
+        FaSass,
+        FaJs,
+        SiTrello,
+        SiNetlify,
+      ],
       description:
         "Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
-      demo: "nathanblaga.me",
-      source: "nathanblaga.me",
+      demo: "https://nathanblaga.netlify.app/",
+      source: "https://github.com/NJBLAGA/Personal_Portfolio",
     },
   ],
 };

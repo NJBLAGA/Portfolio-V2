@@ -4,8 +4,8 @@ import {
   ContactWrapper,
   Title,
   ContactMessage,
-  SocialMediaSection,
   MediaLinks,
+  SocialList,
 } from "../styled-components/Contact";
 
 const Contact = ({ id, title, message, socialMedia }) => {
@@ -15,7 +15,8 @@ const Contact = ({ id, title, message, socialMedia }) => {
         <ContactWrapper>
           <Title>{title}</Title>
           <ContactMessage>{message}</ContactMessage>
-          <SocialMediaSection>
+
+          <SocialList>
             {socialMedia.map(function (Media, index) {
               let { icon: Icon, link } = Media;
               return (
@@ -24,7 +25,7 @@ const Contact = ({ id, title, message, socialMedia }) => {
                 </MediaLinks>
               );
             })}
-          </SocialMediaSection>
+          </SocialList>
         </ContactWrapper>
       </ContactContainer>
     </>
