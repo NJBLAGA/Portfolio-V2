@@ -28,7 +28,6 @@ export const ProjectsWrapper = styled.div`
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
-  background: #fff;
 `;
 
 export const Title = styled.h1`

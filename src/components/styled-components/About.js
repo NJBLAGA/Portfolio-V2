@@ -20,11 +20,10 @@ export const AboutWrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
   padding: 0 24px;
-  background: #fff;
 
   @media screen and (max-width: 768px) {
     width: 90%;
-    height: 200vh;
+    height: 140vh;
   }
 `;
 
@@ -39,7 +38,7 @@ export const Title = styled.h1`
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     font-size: 40px;
-    margin-top: 40px;
+    margin-top: 15%;
   }
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
@@ -106,7 +105,6 @@ export const AboutLeftSide = styled.div`
 export const BioOne = styled.p`
   margin-top: 10px;
   margin-bottom: 20px;
-  width: 1000px;
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {

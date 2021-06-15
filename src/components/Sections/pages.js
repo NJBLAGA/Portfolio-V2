@@ -58,7 +58,7 @@ export const projectsSection = {
   title: "Projects",
   projects: [
     {
-      name: "Hackathon 1",
+      name: "Hackathon",
       image: nathan,
       alt: "Picture of Me",
       tech_stack: [SiRuby, SiRails, SiPostgresql, SiHeroku, SiTailwindcss],
@@ -89,7 +89,7 @@ export const projectsSection = {
       source: "nathanblaga.me",
     },
     {
-      name: "Portfolio 1",
+      name: "First Portfolio",
       image: nathan,
       alt: "Picture of Me",
       tech_stack: [SiRuby, SiRails, SiPostgresql, SiHeroku, SiTailwindcss],
