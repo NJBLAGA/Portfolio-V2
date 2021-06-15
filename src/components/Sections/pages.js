@@ -4,6 +4,7 @@ import GetLucky3000_LandingPage from "../images/GetLucky3000_LandingPage.png";
 import WorkoutJungle_LandingPage from "../images/WorkoutJungle_LandingPage.png";
 import Zop_MainMenu from "../images/Zop_MainMenu.png";
 import FirstPortfolio_LandingPage from "../images/FirstPortfolio_LandingPage.png";
+import Nathan_Blaga from "../images/Nathan_Blaga.pdf";
 import { BsFillTerminalFill } from "react-icons/bs";
 import {
   SiGit,
@@ -33,7 +34,7 @@ export const aboutSection = {
   id: "about",
   title: "About Me",
   bioOne:
-    "I am a creative, driven and passionate software developer, currently studying at Coder Academy Sydney. I am highly motivated to learn, adapt and seek growth in my personal and professional life. I work efficiently and effectively as an individual and within team collaborations. I am determined to build a strong network of like-minded developers who wish to improve and grow within the industry. I have experience in technologies such as HTML, CSS, Ruby, Rails,JavaScript and React. I am also knowledgeable and versatile in mobile first design philosophy, test driven development alongside agile software development practices and ideologies.",
+    "I am a creative, driven and passionate software developer, currently studying at Coder Academy Sydney. I am highly motivated to learn, adapt and seek growth in my personal and professional life. I work efficiently and effectively as an individual and within team collaborations. I am determined to build a strong network of like-minded developers who wish to improve and grow within the industry. In my spare time I love Powerlifting, Hiking and Video Games.",
   img: nathan,
   alt: "Picture of Me",
   skills: [
@@ -78,7 +79,7 @@ export const projectsSection = {
         SiTrello,
       ],
       description:
-        "Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+        "My second Coder Academy hackathon project utilised newsapi.org and React to build a one page application that offers it's users news articles from across the globe. The project challenged us to develop an adaptive and user-friendly application utilising React states.",
       demo: "https://github.com/Channel7News/reackathon",
       source: "https://github.com/Channel7News/reackathon",
     },
@@ -89,7 +90,7 @@ export const projectsSection = {
       alt: "Image of Get Lucky 3000 Landing Page",
       tech_stack: [SiHtml5, SiCss3, FaJs, SiGithub, SiTrello, SiNetlify],
       description:
-        "Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+        "As my first Coder Academy hackathon project, I developed a web application that generated a dating profile based on the information provided by the user. Working within a team challenged my communication skills and required a professional approach to the team's source control practices. Utilising several APIs within the project also posed challenging obstacles which we were required to overcome.  ",
       demo: "https://getlucky3000.netlify.app/",
       source: "https://github.com/theandrewfulton/getlucky3000",
     },
@@ -110,7 +111,7 @@ export const projectsSection = {
         SiTrello,
       ],
       description:
-        "Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+        "Two-sided marketplace in which Australian consumers can buy and sell new and used fitness equipment. Approached with an agile development mindset, I utilised feature sprints and implemented continuous deployment with the aid of development and production pipelines. The database for Workout Jungle's user base and their listings provided an interesting yet challenging experience.   ",
       demo: " https://workout-jungle.herokuapp.com",
       source: "https://github.com/NJBLAGA/Workout_Jungle",
     },
@@ -120,7 +121,7 @@ export const projectsSection = {
       alt: "Image of the Main Menu of Zop",
       tech_stack: [SiRuby, SiGithub, SiTrello],
       description:
-        "Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+        "A terminal based quiz game built completely using Ruby. Zop prompts a player with a series of random questions ranging in difficulty while tracking their current score and remaining attempts. This project challenged me to focus on test driven development and error handling. ",
       demo: "https://github.com/NJBLAGA/NathanBlaga_T1A3",
       source: "https://github.com/NJBLAGA/NathanBlaga_T1A3",
     },
@@ -138,7 +139,7 @@ export const projectsSection = {
         SiNetlify,
       ],
       description:
-        "Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem, Hello World! My name is Nicole! lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+        "The first iteration of my personal portfolio. It's purpose was to create a professional platform in which I could demonstrate my abilities to future employers.The project provided the audience with the current state of my talents, abilities and coding experience, alongside an insight into my personality, professional knowledge, interests, hobbies and mindset.",
       demo: "https://nathanblaga.netlify.app/",
       source: "https://github.com/NJBLAGA/Personal_Portfolio",
     },
@@ -148,11 +149,12 @@ export const projectsSection = {
 export const contactSection = {
   id: "contact",
   title: "Contact",
-  message: "Hey! Contact me!",
+  message:
+    "If you wish to get in touch please reach out to me by email or on social media.",
   socialMedia: [
     {
       icon: FaFileDownload,
-      link: "Nathan Blaga - Resume.pdf",
+      link: Nathan_Blaga,
     },
     {
       icon: SiGmail,
