@@ -76,6 +76,7 @@ export const projectsSection = {
         FaJs,
         SiStyledComponents,
         SiGithub,
+        SiHeroku,
         SiTrello,
       ],
       description:
@@ -113,7 +114,7 @@ export const projectsSection = {
       description:
         "A two-sided marketplace in which Australian consumers can buy and sell new and used fitness equipment. Approached with an agile development mindset, I utilised feature sprints and implemented continuous deployment with the aid of development and production pipelines. The database for Workout Jungle's user base and their listings provided an interesting yet challenging experience.   ",
       demo: " https://workout-jungle.herokuapp.com",
-      source: "https://github.com/NJBLAGA/Workout_Jungle",
+      source: "https://github.com/NJBLAGA/Workout_Jungle_Dev",
     },
     {
       name: "Zop - Quiz Game",
