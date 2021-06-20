@@ -81,7 +81,7 @@ export const projectsSection = {
       ],
       description:
         "For my second Coder Academy hackathon, my team utilised newsapi.org and React to build a single-page application that offers users news articles from across the globe. The project challenged us to develop an adaptive and user-friendly application which utilised React states.",
-      demo: "https://github.com/Channel7News/reackathon",
+      // demo: "https://github.com/Channel7News/reackathon",
       source: "https://github.com/Channel7News/reackathon",
     },
 
@@ -123,7 +123,7 @@ export const projectsSection = {
       tech_stack: [SiRuby, SiGithub, SiTrello],
       description:
         "A terminal based quiz game built completely using Ruby. Zop prompts a player with a series of random questions ranging in difficulty, while tracking their current score and remaining attempts. This project challenged me to focus on test driven development and error handling. ",
-      demo: "https://github.com/NJBLAGA/NathanBlaga_T1A3",
+      // demo: "https://github.com/NJBLAGA/NathanBlaga_T1A3",
       source: "https://github.com/NJBLAGA/NathanBlaga_T1A3",
     },
     {

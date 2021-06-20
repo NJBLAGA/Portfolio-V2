@@ -40,6 +40,8 @@ const Projects = ({ id, title, projects }) => {
                       );
                     })}
                   </ProjectTechStack>
+                  {demo ?  
+                  <>
                   <ProjectLiveDemoButton>
                     <ProjectLiveDemoLink href={demo} target="_blank">
                       Live Demo
@@ -50,6 +52,16 @@ const Projects = ({ id, title, projects }) => {
                       Source Code
                     </ProjectSourceCodeLink>
                   </ProjectSourceCodeButton>
+                  </>
+                  :
+                  <>
+                  <ProjectSourceCodeButton>
+                    <ProjectSourceCodeLink href={source} target="_blank">
+                      Source Code
+                    </ProjectSourceCodeLink>
+                  </ProjectSourceCodeButton>
+                  </>
+                  }
                 </LeftSection>
                 <RightSection>
                   <ProjectImage src={image} alt={alt} />
