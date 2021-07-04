@@ -81,7 +81,7 @@ export const projectsSection = {
       ],
       description:
         "For my second Coder Academy hackathon, my team utilised newsapi.org and React to build a single-page application that offers users news articles from across the globe. The project challenged us to develop an adaptive and user-friendly application which utilised React states.",
-      // demo: "https://github.com/Channel7News/reackathon",
+      demo: "https://reackathon-news-app.netlify.app/",
       source: "https://github.com/Channel7News/reackathon",
     },
 
