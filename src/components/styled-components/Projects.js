@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-  height: 320vh;
+  height: 300vh;
   width: 100%;
   color: black;
   display: flex;
@@ -21,7 +21,7 @@ export const ProjectsContainer = styled.div`
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    height: 400vh;
+    height: 200vh;
   }
 
   /* Large devices (laptops/desktops, 992px and up) */

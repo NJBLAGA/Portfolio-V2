@@ -1,18 +1,83 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-  height: 170vh;
+  height: 140vh;
   width: 100%;
   color: black;
   padding: 70px 0;
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 320px) {
+    height: 200vh;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 375px) {
+    height: 130vh;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-height: 812px) {
+    height: 110vh;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-height: 731px) {
+    height: 115vh;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-height: 823px) {
+    height: 105vh;
+  }
 
   @media screen and (max-width: 768px) {
     padding: 40px 0;
   }
 
   /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 540px) {
+    height: 100vh;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    height: 150vh;
+    height: 100vh;
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    height: 90vh;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 1024px) {
+    height: 80vh;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 1100px) {
+    height: 125vh;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 1200px) {
+    height: 115vh;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 1200px) {
+    height: 80vh;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 1400px) {
+    height: 80vh;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 1550px) {
+    height: 80vh;
   }
 `;
 
