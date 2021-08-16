@@ -1,83 +1,54 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-  height: 140vh;
+  height: 80vh;
   width: 100%;
   color: black;
   padding: 70px 0;
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 320px) {
-    height: 200vh;
+    height: 210vh;
   }
 
-  /* Extra small devices (phones, 600px and down) */
+  /* * Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 360px) {
+    height: 145vh;
+  }
+
+  /* * Extra small devices (phones, 600px and down) */
   @media only screen and (min-width: 375px) {
-    height: 130vh;
+    height: 135vh;
   }
 
   /* Extra small devices (phones, 600px and down) */
-  @media only screen and (min-height: 812px) {
-    height: 110vh;
+  @media only screen and (min-width: 411px) {
+    height: 120vh;
   }
 
   /* Extra small devices (phones, 600px and down) */
-  @media only screen and (min-height: 731px) {
-    height: 115vh;
-  }
-
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (min-height: 823px) {
-    height: 105vh;
-  }
-
-  @media screen and (max-width: 768px) {
-    padding: 40px 0;
-  }
-
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 540px) {
-    height: 100vh;
-  }
-
-  /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     height: 100vh;
   }
 
-  /* Large devices (laptops/desktops, 992px and up) */
+  /* Extra small devices (phones, 600px and down) */
   @media only screen and (min-width: 900px) {
+    height: 75vh;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 900px) and (min-height: 600px) {
     height: 170vh;
   }
 
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 1024px) {
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 900px) and (min-height: 700px) {
     height: 80vh;
   }
 
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 1100px) {
-    height: 125vh;
-  }
-
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 1200px) {
-    height: 115vh;
-  }
-
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 1200px) {
-    height: 0vh;
-  }
-
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 1400px) {
-    height: 80vh;
-  }
-
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 1550px) {
-    height: 80vh;
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 1000px) and (max-height: 700px) {
+    height: 140vh;
   }
 `;
 
