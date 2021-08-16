@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
+  height: 100vh;
   width: 100%;
   color: black;
   padding: 70px 0;
@@ -46,22 +47,12 @@ export const AboutContainer = styled.div`
   }
 
   /* Extra small devices (phones, 600px and down) */
-  @media only screen and (min-width: 900px) and (min-height: 600px) {
-    height: 170vh;
+  @media only screen and (min-width: 900px) and (min-height: 500px) {
+    height: 210vh;
   }
 
   /* Extra small devices (phones, 600px and down) */
-  @media only screen and (min-width: 1000px) and (max-height: 700px) {
-    height: 150vh;
-  }
-
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (min-width: 943px) and (min-height: 700px) {
-    height: 150vh;
-  }
-
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (min-width: 1300px) {
+  @media only screen and (min-width: 1040px) and (min-height: 1000px) {
     height: 80vh;
   }
 `;
