@@ -48,7 +48,7 @@ export const AboutContainer = styled.div`
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (min-width: 900px) and (min-height: 500px) {
-    height: 210vh;
+    height: 180vh;
   }
 
   /* Extra small devices (phones, 600px and down) */
