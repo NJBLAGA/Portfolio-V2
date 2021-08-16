@@ -21,6 +21,7 @@ export const ProjectsContainer = styled.div`
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
+    height: 400vh;
   }
 
   /* Large devices (laptops/desktops, 992px and up) */

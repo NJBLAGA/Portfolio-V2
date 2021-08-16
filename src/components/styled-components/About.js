@@ -12,7 +12,7 @@ export const AboutContainer = styled.div`
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    height: 110vh;
+    height: 150vh;
   }
 `;
 
