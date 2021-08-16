@@ -46,8 +46,8 @@ export const AboutContainer = styled.div`
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    height: 90vh;
+  @media only screen and (min-width: 900px) {
+    height: 170vh;
   }
 
   /* Medium devices (landscape tablets, 768px and up) */
