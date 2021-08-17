@@ -74,7 +74,11 @@ export const ProjectsContainer = styled.div`
   }
   /* ---------------------> THIS ONE*/
   @media only screen and (min-width: 900px) and (min-height: 500px) {
-    height: 300vh;
+    height: 490vh;
+  }
+
+  @media only screen and (min-width: 1500px) and (min-height: 600px) {
+    height: 230vh;
   }
 `;
 
