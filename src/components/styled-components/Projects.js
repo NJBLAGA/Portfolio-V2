@@ -74,7 +74,7 @@ export const ProjectsContainer = styled.div`
   }
   /* ---------------------> GE ?????*/
   @media only screen and (min-width: 900px) and (min-height: 500px) {
-    height: 490vh;
+    height: 500vh;
   }
 
   /* ---------------------> GE ?????*/
