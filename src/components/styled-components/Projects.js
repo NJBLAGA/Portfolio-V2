@@ -91,7 +91,7 @@ export const ProjectsContainer = styled.div`
   }
 
   @media only screen and (min-width: 1500px) and (min-height: 600px) {
-    height: 400vh;
+    height: 410vh;
   }
 `;
 
