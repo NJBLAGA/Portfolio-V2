@@ -61,7 +61,7 @@ export const ProjectsContainer = styled.div`
 
   /* ---------------------> THIS ONE*/
   @media only screen and (min-width: 900px) and (min-height: 500px) {
-    height: 400vh;
+    height: 420vh;
   }
 
   /* ---------------------> THIS ONE*/
