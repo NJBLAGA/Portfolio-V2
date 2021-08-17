@@ -53,7 +53,7 @@ export const AboutContainer = styled.div`
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (min-width: 1040px) and (min-height: 1000px) {
-    height: 80vh;
+    height: 95vh;
   }
 `;
 
