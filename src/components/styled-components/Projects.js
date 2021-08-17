@@ -78,8 +78,8 @@ export const ProjectsContainer = styled.div`
   }
 
   /* ---------------------> GE ?????*/
-  @media only screen and (min-width: 892px) and (min-height: 634px) {
-    height: 40vh;
+  @media only screen and (min-width: 941px) and (min-height: 634px) {
+    height: 410vh;
   }
 
   @media only screen and (min-width: 900px) and (min-height: 1300px) {
