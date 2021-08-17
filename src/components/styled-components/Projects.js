@@ -61,7 +61,7 @@ export const ProjectsContainer = styled.div`
 
   /* ---------------------> THIS ONE*/
   @media only screen and (min-width: 900px) and (min-height: 500px) {
-    height: 490vh;
+    height: 560vh;
   }
 
   /* ---------------------> THIS ONE*/
@@ -79,7 +79,7 @@ export const ProjectsContainer = styled.div`
 
   /* ---------------------> GE ?????*/
   @media only screen and (min-width: 941px) and (min-height: 634px) {
-    height: 410vh;
+    height: 420vh;
   }
 
   @media only screen and (min-width: 900px) and (min-height: 1300px) {
