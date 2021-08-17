@@ -86,6 +86,10 @@ export const ProjectsContainer = styled.div`
     height: 200vh;
   }
 
+  @media only screen and (min-width: 1500px) and (min-height: 590px) {
+    height: 500vh;
+  }
+
   @media only screen and (min-width: 1500px) and (min-height: 600px) {
     height: 240vh;
   }
