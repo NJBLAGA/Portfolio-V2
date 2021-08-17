@@ -51,8 +51,8 @@ export const AboutContainer = styled.div`
   }
 
   /* ---------------------> THIS ONE*/
-  @media only screen and (min-width: 900px) and (min-height: 500px) {
-    height: 150vh;
+  @media only screen and (min-width: 1598px) and (min-height: 588px) {
+    height: 160vh;
   }
 
   @media only screen and (min-width: 900px) and (min-height: 1300px) {
