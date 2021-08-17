@@ -43,7 +43,7 @@ export const AboutContainer = styled.div`
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (min-width: 900px) {
-    height: 150vh;
+    height: 170vh;
   }
 
   /* ---------------------> THIS ONE*/
@@ -58,6 +58,10 @@ export const AboutContainer = styled.div`
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (min-width: 1040px) and (min-height: 1000px) {
     height: 95vh;
+  }
+
+  @media only screen and (min-width: 1500px) and (min-height: 996px) {
+    height: 100vh;
   }
 
   /* ---------------------> THIS ONE*/

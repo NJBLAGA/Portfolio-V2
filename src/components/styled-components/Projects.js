@@ -94,7 +94,11 @@ export const ProjectsContainer = styled.div`
     height: 410vh;
   }
 
-  @media only screen and (min-width: 1500px) and (min-height: 800px) {
+  @media only screen and (min-width: 1500px) and (min-height: 996px) {
+    height: 300vh;
+  }
+
+  @media only screen and (min-width: 1500px) and (min-height: 1000px) {
     height: 250vh;
   }
 `;
