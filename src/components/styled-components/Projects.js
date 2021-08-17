@@ -77,12 +77,17 @@ export const ProjectsContainer = styled.div`
     height: 490vh;
   }
 
+  /* ---------------------> GE ?????*/
+  @media only screen and (min-width: 892px) and (min-height: 634px) {
+    height: 420vh;
+  }
+
   @media only screen and (min-width: 900px) and (min-height: 1300px) {
     height: 200vh;
   }
 
   @media only screen and (min-width: 1500px) and (min-height: 600px) {
-    height: 230vh;
+    height: 240vh;
   }
 `;
 

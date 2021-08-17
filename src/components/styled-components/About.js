@@ -46,9 +46,13 @@ export const AboutContainer = styled.div`
     height: 75vh;
   }
 
+  @media only screen and (min-width: 892px) and (min-height: 634px) {
+    height: 180vh;
+  }
+
   /* ---------------------> THIS ONE*/
   @media only screen and (min-width: 900px) and (min-height: 500px) {
-    height: 190vh;
+    height: 180vh;
   }
 
   @media only screen and (min-width: 900px) and (min-height: 1300px) {
