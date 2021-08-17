@@ -46,9 +46,9 @@ export const AboutContainer = styled.div`
     height: 75vh;
   }
 
-  /* Extra small devices (phones, 600px and down) */
+  /* ---------------------> THIS ONE*/
   @media only screen and (min-width: 900px) and (min-height: 500px) {
-    height: 180vh;
+    height: 160vh;
   }
 
   /* Extra small devices (phones, 600px and down) */

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-  height: 300vh;
+  height: 200vh;
   width: 100%;
   color: black;
   display: flex;
@@ -15,21 +15,62 @@ export const ProjectsContainer = styled.div`
   }
 
   /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    height: 430vh;
+  @media only screen and (max-width: 320px) {
+    height: 520vh;
   }
 
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
+  /* * Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 360px) {
+    height: 250vh;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 320px) and (min-height: 568px) {
+    height: 440vh;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 320px) and (min-height: 640px) {
+    height: 400vh;
+  }
+
+  /* * Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 375px) {
+    height: 380vh;
+  }
+
+  /* * Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 375px) and (max-height: 812px) {
+    height: 370vh;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 411px) {
+    height: 370vh;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 411px) and (min-height: 640px) {
+    height: 370vh;
+  }
+
+  /* ---------------------> THIS ONE*/
+  @media only screen and (min-width: 768px) and (max-height: 1024px) {
+    height: 260vh;
+  }
+
+  /* ---------------------> THIS ONE*/
+  @media only screen and (min-width: 900px) and (min-height: 500px) {
+    height: 500vh;
+  }
+
+  /* ---------------------> THIS ONE*/
+  @media only screen and (min-width: 024px) and (min-height: 1366px) {
     height: 200vh;
   }
-
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-  }
-
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 1040px) and (min-height: 1000px) {
+    height: 225vh;
   }
 `;
 
