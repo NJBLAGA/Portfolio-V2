@@ -34,7 +34,7 @@ export const aboutSection = {
   id: "about",
   title: "About Me",
   bioOne:
-    "I am a creative, driven and passionate software developer, currently studying at Coder Academy Sydney. I am highly motivated to learn, adapt and seek growth in my personal and professional life. I work efficiently and effectively as an individual and within team collaborations. I am determined to build a strong network of like-minded developers who wish to improve and grow within the industry. In my spare time, I love powerlifting, hiking and playing video games.",
+    "I am a creative, driven and passionate software developer. I am highly motivated to learn, adapt and seek growth in my personal and professional life. I work efficiently and effectively as an individual and within team collaborations. After completing a bootcamp at Coder Academy, I am determined to build a strong network of like-minded developers who wish to improve and grow within the industry. In my spare time, I love powerlifting, hiking and playing video games.",
   img: nathan,
   alt: "Picture of Me",
   skills: [
