@@ -1,6 +1,6 @@
 import nathan from "../images/nathan.jpg";
 import Channel7News_LandingPage from "../images/Channel7News_LandingPage.png";
-import GetLucky3000_LandingPage from "../images/GetLucky3000_LandingPage.png";
+import Untitled_Suite from "../images/Untitled_Suite.png";
 import WorkoutJungle_LandingPage from "../images/WorkoutJungle_LandingPage.png";
 import Zop_MainMenu from "../images/Zop_MainMenu.png";
 import FirstPortfolio_LandingPage from "../images/FirstPortfolio_LandingPage.png";
@@ -66,6 +66,25 @@ export const projectsSection = {
   title: "Projects",
   projects: [
     {
+      name: "Untitled Suite",
+      image: Untitled_Suite,
+      alt: "Image of Untitled Suite Landing Page",
+      tech_stack: [
+        FaReact,
+        SiStyledComponents,
+        SiRails,
+        SiPostgresql,
+        SiGithub,
+        SiHeroku,
+        SiTrello,
+        SiNetlify,
+      ],
+      description:
+        "Untitled Suite's original intention is to provide project managers and their teams a one-stop shop for optimising task management. Built with a React front-end and Ruby on Rails back-end, my final group project at Coder Academy was approached with an agile development mindset.",
+      demo: "https://untitled-suite-react-app.netlify.app/#/",
+      source: "https://github.com/NJBLAGA/untitled-suite-react-app",
+    },
+    {
       name: "Channel 7 News",
       image: Channel7News_LandingPage,
       alt: "Image of Channel 7 News Landing Page",
@@ -84,18 +103,6 @@ export const projectsSection = {
       demo: "https://reackathon-news-app.netlify.app/",
       source: "https://github.com/Channel7News/reackathon",
     },
-
-    {
-      name: "Get Lucky 3000",
-      image: GetLucky3000_LandingPage,
-      alt: "Image of Get Lucky 3000 Landing Page",
-      tech_stack: [SiHtml5, SiCss3, FaJs, SiGithub, SiTrello, SiNetlify],
-      description:
-        "As my first Coder Academy hackathon project, my team developed a web application that generated a dating profile based on the information provided by the user. Working within a team challenged my communication skills and required a professional approach to the team's source control practices. Utilising several APIs within the project also posed obstacles which we were required to overcome.  ",
-      demo: "https://getlucky3000.netlify.app/",
-      source: "https://github.com/theandrewfulton/getlucky3000",
-    },
-
     {
       name: "Workout Jungle",
       image: WorkoutJungle_LandingPage,
