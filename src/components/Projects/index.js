@@ -40,28 +40,28 @@ const Projects = ({ id, title, projects }) => {
                       );
                     })}
                   </ProjectTechStack>
-                  {demo ?  
-                  <>
-                  <ProjectLiveDemoButton>
+                  {demo ? (
+                    <>
+                      {/* <ProjectLiveDemoButton>
                     <ProjectLiveDemoLink href={demo} target="_blank">
                       Live Demo
                     </ProjectLiveDemoLink>
-                  </ProjectLiveDemoButton>
-                  <ProjectSourceCodeButton>
-                    <ProjectSourceCodeLink href={source} target="_blank">
-                      Source Code
-                    </ProjectSourceCodeLink>
-                  </ProjectSourceCodeButton>
-                  </>
-                  :
-                  <>
-                  <ProjectSourceCodeButton>
-                    <ProjectSourceCodeLink href={source} target="_blank">
-                      Source Code
-                    </ProjectSourceCodeLink>
-                  </ProjectSourceCodeButton>
-                  </>
-                  }
+                  </ProjectLiveDemoButton> */}
+                      <ProjectSourceCodeButton>
+                        <ProjectSourceCodeLink href={source} target="_blank">
+                          Source Code
+                        </ProjectSourceCodeLink>
+                      </ProjectSourceCodeButton>
+                    </>
+                  ) : (
+                    <>
+                      <ProjectSourceCodeButton>
+                        <ProjectSourceCodeLink href={source} target="_blank">
+                          Source Code
+                        </ProjectSourceCodeLink>
+                      </ProjectSourceCodeButton>
+                    </>
+                  )}
                 </LeftSection>
                 <RightSection>
                   <ProjectImage src={image} alt={alt} />
