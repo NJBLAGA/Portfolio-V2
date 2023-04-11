@@ -42,11 +42,11 @@ const Projects = ({ id, title, projects }) => {
                   </ProjectTechStack>
                   {demo ? (
                     <>
-                      {/* <ProjectLiveDemoButton>
+                      /*{ <ProjectLiveDemoButton>
                     <ProjectLiveDemoLink href={demo} target="_blank">
                       Live Demo
                     </ProjectLiveDemoLink>
-                  </ProjectLiveDemoButton> */}
+                  </ProjectLiveDemoButton> }*/
                       <ProjectSourceCodeButton>
                         <ProjectSourceCodeLink href={source} target="_blank">
                           Source Code
