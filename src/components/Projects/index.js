@@ -11,8 +11,6 @@ import {
   ProjectDescription,
   ProjectTechStack,
   TechStackIcon,
-  ProjectLiveDemoButton,
-  ProjectLiveDemoLink,
   ProjectSourceCodeButton,
   ProjectSourceCodeLink,
 } from "../styled-components/Projects";
