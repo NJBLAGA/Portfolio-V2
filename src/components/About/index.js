@@ -20,7 +20,6 @@ const AboutMe = ({ id, title, img, alt, skills, bioOne }) => {
           <AboutSubSection>
             <AboutLeftSide>
               <Title>{title}</Title>
-              <AboutImage src={img} alt={alt} />
               <BioOne>{bioOne}</BioOne>
               <TitleSub>Technologies</TitleSub>
               <Skills>
